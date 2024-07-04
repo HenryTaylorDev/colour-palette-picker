@@ -1,9 +1,25 @@
-import Header from "../components/Header";
+import './styles/pages.scss';
+import '../index.css';
 
-export default function TrendingPage() {
+import ColourPalette from "../components/ColourPalette";
+import Header from "../components/Header";
+import colorPalettes from "../data/colourPalettes";
+
+export default function TrendingPage({ paletteSelected }) {
     return (
-        <div className='trending'>
+        <>
             <Header text="Select from Trending Palettes" />
-        </div>
+            <div className="palettes">
+                {colorPalettes.map((palette, i) => (
+                    <div key={i}>
+                        <ColourPalette
+                            palette={palette.colours}
+                            paletteName={palette.name}
+                            paletteSelected={paletteSelected}
+                        />
+                    </div>
+                ))}
+            </div>
+        </>
     );
   }

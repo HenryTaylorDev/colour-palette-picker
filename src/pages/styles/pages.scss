@@ -1,7 +1,4 @@
-.palettes-pg {
-    width: 100%;
-
-    &__palettes {
+.palettes {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -9,5 +6,4 @@
         width: 100%;
         gap: 1em;
         margin-top: 5em;
-    }
 }

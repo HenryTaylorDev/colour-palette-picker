@@ -1,5 +1,4 @@
 import { FaLock, FaLockOpen, FaMinus, FaPlus } from "react-icons/fa";
-import '../index.css';
 
 import { IconButton } from "@mui/material";
 import './styles/components.scss';
