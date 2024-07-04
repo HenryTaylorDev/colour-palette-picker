@@ -8,13 +8,13 @@ const NavBar = () => (
         <ul className="nav__buttons">
             <li>
                 <Button variant="outlined">
-                    <Link className="nav__link" underline="none" href="/">Palette Picker</Link>
+                    <Link className="nav__link" underline="none" href="/colour-palette-picker">Palette Picker</Link>
                     <Link></Link>
                 </Button>
             </li>
             <li>
                 <Button variant="outlined">
-                    <Link className="nav__link" underline="none" href="/trending">Trending</Link>
+                    <Link className="nav__link" underline="none" href="/colour-palette-picker/trending">Trending</Link>
                 </Button>
             </li>
         </ul>
