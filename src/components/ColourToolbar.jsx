@@ -1,18 +1,23 @@
-import { FaMinus, FaPlus } from "react-icons/fa";
+import { FaLock, FaLockOpen, FaMinus, FaPlus } from "react-icons/fa";
 import '../index.css';
 
 import { IconButton } from "@mui/material";
-import './components.scss';
+import './styles/components.scss';
 
-const Toolbar = () => (
+const ColourToolbar = ({ onAddColourBar, handleRemove, isLocked, toggleLock }) => (
     <div className="bar-buttons">
-        <IconButton label="Add" >
+        <IconButton label="Add" onClick={() => onAddColourBar()}>
             <FaPlus color="inherit" /> </IconButton>
-        <IconButton label="Subtract" >
+        <IconButton label="Subtract" onClick={() => handleRemove()} >
             <FaMinus color="inherit" />
         </IconButton>
-        <IconButton label="toggle lock"></IconButton>
+        <IconButton
+            label="toggle lock"
+            onClick={toggleLock}
+        >
+            {isLocked ? <FaLock color="inherit" /> : <FaLockOpen color="inherit" />}
+        </IconButton>
     </div>
 );
 
-export default Toolbar;
+export default ColourToolbar;
