@@ -1,10 +1,13 @@
+import Header from "../components/Header";
+import PaletteContainer from "../components/PaletteContainer";
 
 
 
 export default function PalettePickerPage() {
   return (
-    <div>
-      <h1>Palette Picker</h1>
-    </div>
+    <>
+        <Header />
+        <PaletteContainer />
+    </>
   );
 }

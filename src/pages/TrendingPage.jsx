@@ -1,7 +1,9 @@
+import Header from "../components/Header";
+
 export default function TrendingPage() {
     return (
-      <div>
-        <h1>Trending Page</h1>
-      </div>
+        <div className='trending'>
+            <Header text="Select from Trending Palettes" />
+        </div>
     );
   }
