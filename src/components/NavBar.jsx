@@ -8,7 +8,7 @@ const NavBar = () => (
         <ul className="nav__buttons">
             <li>
                 <Button variant="outlined">
-                    <Link className="nav__link" underline="none" href="/">Home</Link>
+                    <Link className="nav__link" underline="none" href="/">Palette Picker</Link>
                     <Link></Link>
                 </Button>
             </li>

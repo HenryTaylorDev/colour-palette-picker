@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import PalettePickerPage from './pages/PalettePickerPage';
 import TrendingPage from './pages/TrendingPage';
 import { useCallback, useEffect, useState } from 'react';
