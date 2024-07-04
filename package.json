@@ -1,6 +1,7 @@
 {
   "name": "colour-palette-picker",
   "version": "0.1.0",
+  "homepage": "https://henrytaylordev.github.io/colour-palette-picker",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
