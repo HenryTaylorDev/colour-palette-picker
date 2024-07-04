@@ -81,7 +81,6 @@ function App() {
   }
 
   return (
-    <div className='h-screen'>
       <Routes>
         <Route path='/' element={<PalettePickerPage
           generatePopularPalette={generatePopularPalette}
@@ -96,7 +95,6 @@ function App() {
           paletteSelected={addPaletteToPicker} 
         />} />
       </Routes>
-    </div>
   );
 }
 
