@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c3a6e33b.css",
-    "main.js": "/static/js/main.fb7d722e.js",
-    "static/js/453.f08994e2.chunk.js": "/static/js/453.f08994e2.chunk.js",
-    "index.html": "/index.html",
-    "main.c3a6e33b.css.map": "/static/css/main.c3a6e33b.css.map",
-    "main.fb7d722e.js.map": "/static/js/main.fb7d722e.js.map",
-    "453.f08994e2.chunk.js.map": "/static/js/453.f08994e2.chunk.js.map"
+    "main.css": "/colour-palette-picker/static/css/main.c3a6e33b.css",
+    "main.js": "/colour-palette-picker/static/js/main.a4ba5478.js",
+    "static/js/453.f08994e2.chunk.js": "/colour-palette-picker/static/js/453.f08994e2.chunk.js",
+    "index.html": "/colour-palette-picker/index.html",
+    "main.c3a6e33b.css.map": "/colour-palette-picker/static/css/main.c3a6e33b.css.map",
+    "main.a4ba5478.js.map": "/colour-palette-picker/static/js/main.a4ba5478.js.map",
+    "453.f08994e2.chunk.js.map": "/colour-palette-picker/static/js/453.f08994e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3a6e33b.css",
-    "static/js/main.fb7d722e.js"
+    "static/js/main.a4ba5478.js"
   ]
 }
