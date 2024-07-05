@@ -8,7 +8,7 @@ import colorPalettes from "../data/colourPalettes";
 export default function TrendingPage({ paletteSelected }) {
     return (
         <>
-            <Header text="Select from Trending Palettes" />
+            <Header text="Choose from popular colour palettes" />
             <div className="palettes">
                 {colorPalettes.map((palette, i) => (
                     <div key={i}>
