@@ -1,0 +1,24 @@
+.palette {
+    &__containter {
+        border: transparent hsl(0, 0%, 0%) 10px;
+        border-radius: 20px;
+        display: flex;
+
+    }
+
+    &__colour {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 9em;
+        width: 6em;
+
+        &:hover .palette__hex {
+            display: block;
+        }
+    }
+
+    &__hex {
+        display: none;
+    }
+}

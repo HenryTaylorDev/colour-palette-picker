@@ -1,12 +1,12 @@
 import { Route, Routes } from "react-router-dom";
-import PalettePickerPage from "./pages/PalettePickerPage";
-import TrendingPage from "./pages/TrendingPage";
+import PalettePickerPage from "./pages/PalettePickerPage/PalettePickerPage";
+import TrendingPage from "./pages/TrendingPage/TrendingPage";
 import React, { useCallback, useEffect, useState } from "react";
-import { isDarkBackground } from "./util/helper";
-import { getRandomIndex } from "./util/getRandomIndex";
 import colorPalettes from "./data/colourPalettes";
 import { getRandomColour } from "./util/getRandomColour";
+import { getRandomIndex } from "./util/getRandomIndex";
 import { Snackbar } from "@mui/material";
+import { isDarkBackground } from "./util/helper";
 
 function App() {
   const [colourBars, setColourBars] = useState([]);

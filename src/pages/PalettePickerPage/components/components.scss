@@ -1,0 +1,56 @@
+.picker {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+
+    &__container {
+        display: flex;
+        width: 100%;
+    }
+}
+
+.colour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 87.8vh;
+    height: 100%;
+    width: 100%;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    &__actions {
+        height: 2em;
+    }
+
+    &__tools {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &__hover {
+        width: 10em;
+        height: 2em;
+    }
+
+    &__lock-icon {
+        margin-top: 2em;
+        height: 2em;
+    }
+}
+
+.bar-buttons {
+    display: flex;
+}
