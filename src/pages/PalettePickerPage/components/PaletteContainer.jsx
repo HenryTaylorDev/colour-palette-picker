@@ -1,5 +1,5 @@
 import Colour from "./Colour";
-import "./styles/components.scss";
+import "./components.scss";
 
 function PaletteContainer({
   colourBars,

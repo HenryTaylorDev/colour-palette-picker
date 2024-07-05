@@ -1,7 +1,7 @@
 import { FaCopy, FaLock, FaLockOpen, FaMinus, FaPlus } from "react-icons/fa";
 
 import { IconButton, Tooltip } from "@mui/material";
-import "./styles/components.scss";
+import "./components.scss";
 
 const ColourToolbar = ({
   onAddColourBar,

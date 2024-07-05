@@ -1,6 +1,6 @@
 import { useState } from "react";
 import LockIcon from "@mui/icons-material/Lock";
-import "./styles/components.scss";
+import "./components.scss";
 import ColourToolbar from "./ColourToolbar";
 
 function Colour({

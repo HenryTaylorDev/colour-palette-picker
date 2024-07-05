@@ -1,5 +1,5 @@
-import Header from "../components/Header";
-import PaletteContainer from "../components/PaletteContainer";
+import Header from "../../components/Header";
+import PaletteContainer from "./components/PaletteContainer";
 
 export default function PalettePickerPage({
   generatePopularPalette,
